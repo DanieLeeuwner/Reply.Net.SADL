@@ -2,10 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Reply Solutions</Authors>
+    <Description>South African drivers licence decryption and decoding</Description>
+    <PackageProjectUrl>https://github.com/DanieLeeuwner/Reply.Net.SADL</PackageProjectUrl>
+    <PackageIcon>reply_logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/DanieLeeuwner/Reply.Net.SADL</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>SADL, drivers licence</PackageTags>
+    <NeutralLanguage />
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BouncyCastle" Version="1.8.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\null\reply_logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
