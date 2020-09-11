@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reply.Net.SADL", "Reply.Net.SADL\Reply.Net.SADL.csproj", "{DC0E306E-FD3B-42A7-89CC-0D1B478B6307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reply.Net.SADL.Tests", "Reply.Net.SADL.Tests\Reply.Net.SADL.Tests.csproj", "{1A9D6B04-4B1F-459B-B432-FE222D26C9C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC0E306E-FD3B-42A7-89CC-0D1B478B6307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0E306E-FD3B-42A7-89CC-0D1B478B6307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0E306E-FD3B-42A7-89CC-0D1B478B6307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0E306E-FD3B-42A7-89CC-0D1B478B6307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9D6B04-4B1F-459B-B432-FE222D26C9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9D6B04-4B1F-459B-B432-FE222D26C9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9D6B04-4B1F-459B-B432-FE222D26C9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9D6B04-4B1F-459B-B432-FE222D26C9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49FAAF63-4775-4FC6-A841-4AFF4B33475C}
+	EndGlobalSection
+EndGlobal
