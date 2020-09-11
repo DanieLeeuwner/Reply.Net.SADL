@@ -63,6 +63,22 @@ Kw==
 
 Refer to this repository for interpretation information: https://github.com/ugommirikwe/sa-license-decoder
 
+### Usage
+
+```csharp
+// Byte array contianing raw licence bytes from barcode 
+var encryptedLicenceBytes = ...; 
+
+// Decrypt and decode licence fields
+var driversLicenceService = new DriversLicenceService();
+var decryptedLicenceBytes = driversLicenceService.DecryptLicence(encryptedLicenceBytes);
+var licence = driversLicenceService.DecodeLicence(decryptedLicenceBytes);
+
+// Read fields from licence object
+var surname = licence.Surname;
+var initials = licence.Initials;
+```
+
 ### Samples
 
 **Raw barcode data (base64)**
