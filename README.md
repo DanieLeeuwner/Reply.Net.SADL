@@ -129,5 +129,4 @@ https://stackoverflow.com/questions/17549231/decode-south-african-za-drivers-lic
 
 https://github.com/ugommirikwe/sa-license-decoder
 
-
-
+https://www.b4x.com/android/forum/threads/solved-need-assistance-with-rsa-decryption.118756/

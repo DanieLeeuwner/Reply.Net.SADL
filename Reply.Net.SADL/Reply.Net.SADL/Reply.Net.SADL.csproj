@@ -8,18 +8,26 @@
     <PackageIcon>reply_logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/DanieLeeuwner/Reply.Net.SADL</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>SADL, drivers licence</PackageTags>
+    <PackageTags>SADL, drivers licence, South African drivers licence</PackageTags>
     <NeutralLanguage />
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BouncyCastle" Version="1.8.6.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\null\reply_logo.png">
+    <None Update="reply_logo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
